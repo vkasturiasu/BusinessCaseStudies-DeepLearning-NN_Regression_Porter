@@ -87,3 +87,8 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+#dont track ml flow experiments and tensorboard logs
+mlruns/
+tb_logs/
+mlflow/
